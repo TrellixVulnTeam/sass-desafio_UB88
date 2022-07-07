@@ -1,0 +1,64 @@
+// inicia nav
+
+
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding-left:5%;
+    padding-right:5%;}
+    a{
+        img{ width: 20%;}
+    }
+    
+.navbar-brand{
+    display: flex;
+    width: 40%;
+      }
+
+button{
+    img{
+        display: flex;
+        justify-items: end;
+        align-items: center;
+    }
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+    
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;}
+
+
+
+
+.navbar-nav{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+    li{
+	    font-family: $font-vivero;
+        font-size: $size-nav;
+        a{
+            text-decoration: none;
+            color: $color-index;
+            &:hover{
+                color:$color-card-title-hover;
+                transform: translateY(-10px);
+            }
+        }
+   
+    }
+}
+
+// finaliza nav

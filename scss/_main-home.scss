@@ -1,0 +1,54 @@
+// arreglos generales a todo el index
+
+
+
+
+
+
+.home{
+    background: $backgroundcolor;
+    overflow-x: hidden;
+    font-size: 62.5%;
+}
+
+// estilo de las cards
+
+.section-card{
+	background: $backgroundcolor;
+	margin-bottom: 0;
+	justify-content: center;
+}
+
+.card{
+	background: none;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 2%;
+	border: none;
+    .card-img-top{
+	    width: 80%;
+	    margin-left: 10%;
+	    border-radius: 5%;
+    }
+    .card-body{
+        h5{
+            font-family: $font-vivero;
+	        font-size: $size-title-cards;
+	        color: $color-index;
+            &:hover{
+                color: $color-card-title-hover;
+            }
+
+        }
+        p{
+            font-family: $font-vivero;
+	        font-size: $size-text-cards;
+	        color: $color-index;
+            &:hover{
+                color: $color-card-text-hover;
+            }
+        }
+    }
+}
+
+// fin estilo cards
