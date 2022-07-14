@@ -38,19 +38,18 @@ button img {
     font-size: 3em; }
     .navbar-nav li a {
       text-decoration: none;
-      color: #ee7b22; }
+      color: #f7f5f4; }
       .navbar-nav li a:hover {
         color: #bf3341;
         transform: translateY(-10px); }
 
 footer {
-  background: linear-gradient(to right, #51d1a1, #620ee7);
   margin-top: 0%; }
   footer .links {
     font-family: "Noto Serif", serif;
     font-size: 2.5em;
     text-decoration: none;
-    color: #ee7b22; }
+    color: #215240; }
     footer .links:hover {
       color: #bf3341; }
 
@@ -62,22 +61,22 @@ hr {
   .mb-5 .d-flex div p {
     font-family: "Noto Serif", serif;
     font-size: 2em;
-    color: #fff; }
+    color: #215240; }
 
 .text-footer {
   font-family: 'noto serif', serif;
   text-decoration: none;
-  color: #ee7b22; }
+  color: #215240; }
   .text-footer:hover {
     color: #fff; }
 
 .home {
-  background: linear-gradient(to right, #51d1a1, #620ee7);
+  background: linear-gradient(to bottom, #215240, #e4ece9);
   overflow-x: hidden;
   font-size: 62.5%; }
 
 .section-card {
-  background: linear-gradient(to right, #51d1a1, #620ee7);
+  background: transparent;
   margin-bottom: 0;
   justify-content: center; }
 
@@ -94,12 +93,69 @@ hr {
   .card .card-body h5 {
     font-family: "Noto Serif", serif;
     font-size: 2.5em;
-    color: #ee7b22; }
+    color: #215240; }
     .card .card-body h5:hover {
       color: #bf3341; }
   .card .card-body p {
     font-family: "Noto Serif", serif;
     font-size: 2em;
-    color: #ee7b22; }
+    color: #215240; }
     .card .card-body p:hover {
       color: #fff; }
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-content: center; }
+
+.cards-sucu, .cards-sucu-2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%; }
+
+.cards-sucu .card img, .cards-sucu-2 .card img {
+  border: 2px solid #215240; }
+
+.cards-sucu .card .card-body p, .cards-sucu-2 .card .card-body p {
+  color: #f7f5f4; }
+  .cards-sucu .card .card-body p:hover, .cards-sucu-2 .card .card-body p:hover {
+    color: #bf3341; }
+
+.cards-sucu-2 .card img {
+  border: 2px solid #e4ece9; }
+
+.cards-sucu-2 .card .card-body p {
+  color: #215240; }
+  .cards-sucu-2 .card .card-body p:hover {
+    color: #bf3341; }
+
+.main-page-contacto {
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+  .main-page-contacto .title-contacto {
+    display: flex;
+    width: 100%;
+    justify-content: center; }
+    .main-page-contacto .title-contacto h3 {
+      display: flex;
+      font-family: "Noto Serif", serif;
+      color: #f7f5f4;
+      margin-top: 2%;
+      margin-bottom: 2%; }
+
+.section-contacto {
+  display: flex;
+  width: 100%; }
+
+.form-contacto, .pic-presentation {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 2%;
+  padding-right: 2%; }
+
+.section-contacto .pic-presntation img {
+  transform: rotateY(45deg);
+  width: 50%; }

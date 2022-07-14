@@ -6,13 +6,13 @@
 
 
 footer{
-    background: $backgroundcolor;
+    
     margin-top: 0%;
     .links{
         font-family:$font-vivero;
 		font-size: $size-title-cards;
 		text-decoration: none;
-		color: $color-index;
+		color: $color-main;
         &:hover{
             color:$color-card-title-hover;
         }
@@ -29,7 +29,7 @@ hr{
                 p{
                     font-family: $font-vivero;
                     font-size: $size-text-cards;
-                    color: $color-card-text-hover;
+                    color: $color-main;
                 }
             }
         }
@@ -37,10 +37,11 @@ hr{
 
 
 
+
 .text-footer{
 	font-family:  'noto serif', serif;
 	text-decoration: none;
-	color: rgb(238, 123, 34);
+	color: $color-main;
     &:hover{
         color: $color-card-text-hover;
     }

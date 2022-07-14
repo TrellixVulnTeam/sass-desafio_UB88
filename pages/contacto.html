@@ -7,129 +7,165 @@
         <link rel="icon" href="../imagenes/iconos/logo.ico">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
 
         <title> Contacto</title>
     </head>
 
-<body>
+    <body class="home">
 
-    <!-- Inicio Nav -->
-
-    <header class="header">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../imagenes/originales/florlogo.png" alt="vivero.heinz" class="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link"  href="suculentas.html">Suculentas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="cactus.html">Cactus</a>
-                        </li>
-                    </ul>
+        <!-- Inicio Nav -->
+    
+        <header class="header">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html"><img src="../imagenes/iconos/florlogo.png" alt="vivero.heinz" class="logo logo-animation"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="../imagenes/iconos/hamburger.svg" width="25px">
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link-otras"  href="suculentas.html">Suculentas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link-otras" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link-otras" href="contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item-otras">
+                                <a class="nav-link-otras" href="arreglos.html">Arreglos</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </nav>
+        </header>
+<!-- Ends Nav-->
+
+<!--Inicia Main-->
+<main class="main-page-contacto container-fluid">
+
+    <div class="title-contacto">
+         <h3>Dejanos Tu Consulta</h3>
+    </div>
+
+    <section class="section-contacto">
+
+        <article class="container-fluid form-contacto">
+            <div class="mb-3 input-consulta row">
+                <input class="col-lg-6 col-md-12 col-sm-12 form-control" type="text" id="formFile" placeholder="Nombre...">
+            <div class="row mb-3 input-consulta">
+                <input class="col-lg-6 col-md-12 col-sm-12 form-control" type="text" id="formFile" placeholder="Apellido..." multiple>
             </div>
-        </nav>
-    </header>
+            <div class="row mb-3 input-consulta">
+                <input class="col-lg-6 col-md-12 col-sm-12 form-control" type="email" placeholder="Email...">
+            </div>
+            <div class="row mb-3 input-consulta">
+                <input class="col-lg-6 col-md-12 col-sm-12 form-control"  type="number" id="formFile" placeholder="Número de Contacto..">
+            </div>
+            <div class="row mb-3 input-consulta">
+                <input class="col-lg-6 col-md-12 col-sm-12 form-control form-control-lg" type="text" id="formFile" placeholder="Escribí tu Consulta">
+            </div>
+            <div class="row button-div">
+                <input class="col-lg-6 col-md-12 col-sm-12 button-submit" type="submit">
+            </div>
+        </article>
+
+    <article class="pic-presentation">
+        <img src="../imagenes/slide-d.webp"  alt="arreglo floral">
+    </article>
+
+
+    </section>
+
+</main>
+
+<!--Ends Main-->
 
 
 <!--Incia Footer-->
 
-    <footer class="text-center">
-        <!-- Grid container -->
-            <div class="container">
-            <!-- Section: Links -->
-                <section>
-              <!-- Grid row-->
-                    <div class="row text-center d-flex justify-content-center pt-5">
-                <!-- Grid column -->
-                        <div class="col-md-2">
-                        <a href="../index.html"  class="links">Home</a>
-                        </div>
-                <!-- Grid column -->
-      
-                <!-- Grid column -->
-                        <div class="col-md-2">
-                        <a href="suculentas.html" class="links">Suculentas</a>
-                        </div>
-                <!-- Grid column -->
-      
-                <!-- Grid column -->
-                        <div class="col-md-2">
-                        <a href="cactus.html" class="links">Cactus</a>
-                        </div>
-                <!-- Grid column -->
-      
-                <!-- Grid column -->
-                        <div class="col-md-2">
-                        <a href="nosotros.html" class="links">Nosotros</a>
-                        </div>
-                <!-- Grid column -->
-      
-                <!-- Grid column -->
-                        <div class="col-md-2">
-                        <a href="contacto.html" class="links">Contacto</a>
-                        </div>
-                <!-- Grid column -->
+<footer class="text-center">
+    <!-- Grid container -->
+        <div class="container">
+        <!-- Section: Links -->
+            <section>
+          <!-- Grid row-->
+                <div class="row text-center d-flex justify-content-center pt-5">
+            <!-- Grid column -->
+                    <div class="col-md-2">
+                    <a href="../index.html"  class="links">Home</a>
                     </div>
-              <!-- Grid row-->
-                </section>
-            <!-- Section: Links -->
-      
-                <hr class="my-5" />
-      
-            <!-- Section: Text -->
-            <section class="mb-5">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-lg-8">
-                    <p>
-                    ¡Plantas del desierto tradías a Mar del Plata y de acá al Mundo!
-                    </p>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+                    <div class="col-md-2">
+                    <a href="suculentas.html" class="links">Suculentas</a>
                     </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+                    <div class="col-md-2">
+                    <a href="arreglos.html" class="links">Arreglos</a>
+                    </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+                    <div class="col-md-2">
+                    <a href="nosotros.html" class="links">Nosotros</a>
+                    </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+                    <div class="col-md-2">
+                    <a href="contacto.html" class="links">Contacto</a>
+                    </div>
+            <!-- Grid column -->
                 </div>
+          <!-- Grid row-->
             </section>
+        <!-- Section: Links -->
+  
+            <hr class="my-5" />
+  
         <!-- Section: Text -->
-  
-        <!-- Section: Social -->
-            <section class="text-center mb-5">
-      
-                <a href="https://www.instagram.com/vivero.heinz/" class="text-white me-4">
-                <img src="">
-                </a>
-                <a href="" class="text-white me-4">
-                <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="" class="text-white me-4">
-                <i class="fab fa-github"></i>
-                </a>
-            </section>
-        <!-- Section: Social -->
-        </div>
-      <!-- Grid container -->
-  
-      <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        © 2022 
-            <a class="text-footer" href="www.linkedin.com/in/debora-chiatti">Débora Chiatti Heinz</a>
-        </div>
-      <!-- Copyright -->
-    </footer>
-        <!-- Footer -->
-    
-    
-    
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    
-        </body>
-    </html>
+        <section class="container-fluid mb-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                <p class="slogan-footer">
+                ¡Plantas del desierto tradías a Mar del Plata y de acá al Mundo!
+                </p>
+                </div>
+            </div>
+        </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Social -->
+        <section class="text-center mb-5">
+            <a href="https://www.instagram.com/vivero.heinz/" class="text-white me-4">
+            <img src="../imagenes/iconos/ing-icono.svg" class="iconos-animation" width="40px" height="40px">
+            </a>
+            <a href="https://api.whatsapp.com/send/?phone=542235550460&text&app_absent=0" target="_blank" class="text-white me-4">
+            <img src="../imagenes/iconos/wp-icono.svg" class="imagenes iconos-animation-b" height="40px" width="40px"></img>
+            </a>
+        </section>
+    <!-- Section: Social -->
+    </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2022 
+        <a class="text-footer-sucu" href="www.linkedin.com/in/debora-chiatti">Débora Chiatti Heinz</a>
+    </div>
+  <!-- Copyright -->
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>

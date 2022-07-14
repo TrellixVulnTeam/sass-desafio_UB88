@@ -1,0 +1,62 @@
+
+// inicio Main-suculentas.html
+
+.main-page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+}
+
+.cards-sucu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.cards-sucu{    
+        .card{
+            img{
+                border: 2px solid rgb(33, 82, 64);
+                }
+            }
+        }
+    
+.cards-sucu{
+        .card{
+            .card-body{
+                    p{
+                    color: $color-index;
+                    &:hover{
+                        color: $color-card-title-hover;
+                    }
+                }
+            }
+        }
+    }
+
+.cards-sucu-2{
+    @extend .cards-sucu;
+            }
+
+
+.cards-sucu-2{
+            .card{
+                img{
+                    border: 2px solid rgb(228, 236, 233);
+                }
+            }    
+        }
+
+.cards-sucu-2{
+        .card{
+            .card-body{
+                p{
+                    color: $color-main;
+                    &:hover{
+                        color: $color-card-title-hover;
+                    }
+                }
+            }
+        }
+}

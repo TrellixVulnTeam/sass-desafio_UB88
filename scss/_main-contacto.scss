@@ -1,0 +1,46 @@
+// inicia Mian - Contacto.html
+
+.main-page-contacto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .title-contacto{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        h3{
+            display: flex;
+            font-family: $font-vivero;
+            color: $color-index;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+    }
+}
+
+
+.section-contacto{
+    display: flex;
+    width: 100%;
+}
+
+.form-contacto{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    padding-left: 2%;
+    padding-right: 2%;
+    }
+
+.pic-presentation{
+    @extend .form-contacto;
+                }
+
+.section-contacto{
+            .pic-presntation{
+                img{
+                   transform:rotateY(45deg);
+                   width: 50%;
+                }
+            }              
+        }
