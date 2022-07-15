@@ -7,40 +7,98 @@
     .title-contacto{
         display: flex;
         width: 100%;
-        justify-content: center;
-        h3{
-            display: flex;
-            font-family: $font-vivero;
-            color: $color-index;
-            margin-top: 2%;
-            margin-bottom: 2%;
-        }
+        justify-content: center;}
     }
-}
+
+h3{
+    display: flex;
+    font-family: $font-vivero;
+    color: $color-index;
+    font-size: $size-nav;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    }
 
 
-.section-contacto{
+.main_section{
     display: flex;
     width: 100%;
 }
 
-.form-contacto{
+.main_article{
     display: flex;
-    flex-direction: column;
-    width:50%;
-    padding-left: 2%;
-    padding-right: 2%;
+    align-items: center;
+    width: 100%;
+    @media screen and (min-width: 320px) and (max-width: 900px){
+     display:flex;
+     flex-direction: column;
+     width: 100%;   
+    }
     }
 
-.pic-presentation{
-    @extend .form-contacto;
-                }
-
-.section-contacto{
-            .pic-presntation{
-                img{
-                   transform:rotateY(45deg);
-                   width: 50%;
-                }
-            }              
+.form-left{
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    @media screen and (min-width: 320px) and (max-width: 900px){
+        display: flex;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+}
+    
+    
+.form-control{
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    font-size: $size-text-cards;
         }
+
+
+.form-right{
+    @extend .form-left;
+}
+
+.form-right{
+        img{display: flex;
+            width: 100%;
+        }
+}
+
+$paleta:(
+    'verde-a':  rgb(162, 233, 207),
+    'verde-b':   rgb(119, 173, 153),
+    'verde-c':  rgb(113, 221, 181),
+    'verde-d':  rgb(80, 197, 154),
+    'verde-e':  rgb(87, 201, 159),
+);
+
+.name{
+    background-color: map-get($map:$paleta, $key: verde-c);
+}
+
+
+.last-name{
+    background-color: map-get($map:$paleta, $key: verde-d);
+}
+
+.mail{
+    background-color: map-get($map:$paleta, $key: verde-a);
+}
+
+
+.number{
+    background-color: map-get($map:$paleta, $key: verde-b);
+}
+
+
+.writing{
+    background-color: map-get($map:$paleta, $key: verde-e);
+}
