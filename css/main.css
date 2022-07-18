@@ -75,6 +75,18 @@ hr {
   overflow-x: hidden;
   font-size: 62.5%; }
 
+.carousel-item {
+  display: flex;
+  justify-content: center; }
+
+.carousel-item.active {
+  display: flex;
+  justify-content: center; }
+
+.carousel-fade {
+  display: flex;
+  justify-content: center; }
+
 .section-card {
   background: transparent;
   margin-bottom: 0;
@@ -185,7 +197,7 @@ h3 {
 
 .form-right img {
   display: flex;
-  width: 100%; }
+  width: 80%; }
 
 .name {
   background-color: #71ddb5; }

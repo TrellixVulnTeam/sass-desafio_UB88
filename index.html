@@ -22,7 +22,7 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="imagenes/iconos/florlogo.png" alt="vivero.heinz" class="logo logo-animation"></a>
+                <a class="navbar-brand" href="index.html"><img src="imagenes/iconos/florlogo.png" alt="vivero_heinz" class="logo logo-animation"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <img src="imagenes/iconos/hamburger.svg" width="25px"> 
                 </button>
@@ -53,27 +53,27 @@
     <main>   
 
     <section class="container-carrusel">
-        <div id="carouselCrossfade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="slide-home" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#slide-home" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
+                <li data-bs-target="#slide-home" data-bs-slide-to="1" aria-label="Slide 2"></li>
+                <li data-bs-target="#slide-home" data-bs-slide-to="2" aria-label="Slide 3"></li>
+            </ol>
+
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="imagenes/slide-c.webp" class="d-block w-100 img-carrusel" alt="arreglos de flores bordo">
-              </div>
-              <div class="carousel-item">
-                <img src="imagenes/slide-b.webp" class="d-block w-100" alt="arreglos de flores violetas azuladas">
-              </div>
-              <div class="carousel-item">
-                <img src="imagenes/slide-a.webp" class="d-block w-100" alt="arreglos de flores verdes y rosas">
-              </div>
+                <div class="carousel-item active">
+                    <img src="imagenes/slide-c.webp" class="d-block rounded" alt="arreglos de flores bordo">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="imagenes/slide-b.webp" class="d-block rounded" alt="arreglos de flores violetas azuladas">
+                </div>
+              
+                <div class="carousel-item">
+                    <img src="imagenes/slide-a.webp" class="d-block rounded" alt="arreglos de flores verdes y rosas">
+                </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselCrossfade" role="button" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselCrossfade" role="button" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </a>
-          </div>
+        </div>
     </section>
     
     <section class="container-fluid w-100">

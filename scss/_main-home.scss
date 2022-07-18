@@ -3,13 +3,31 @@
 
 
 
-
+// background color of the entire page
 
 .home{
     background: $backgroundcolor;
     overflow-x: hidden;
     font-size: 62.5%;
 }
+
+// carrusel 
+
+.carousel-item{
+    display: flex;
+    justify-content: center;
+    }
+
+.carousel-item.active{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-fade{
+    display: flex;
+    justify-content: center;
+}
+
 
 // estilo de las cards
 
