@@ -13,7 +13,7 @@
     
 .navbar-brand{
     display: flex;
-    width: 40%;
+    width: 20%;
       }
 
 button{
@@ -42,9 +42,12 @@ button{
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
+    padding-right: 4%;
+    padding-left: 4%;
     li{
 	    font-family: $font-vivero;
         font-size: $size-nav;
+        padding: 2%;
         a{
             text-decoration: none;
             color: $color-index;
@@ -57,4 +60,8 @@ button{
     }
 }
 
+.nav-link-otras{
+    padding-right: 4%;
+    padding-left: 4%;
+}
 // finaliza nav

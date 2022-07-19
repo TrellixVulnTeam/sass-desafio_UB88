@@ -29,6 +29,16 @@
 }
 
 
+.title-h1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3%;
+    color: $color-card-title-hover;
+    font-size: $size-nav;
+    font-family: $font-vivero;
+}
+
 // estilo de las cards
 
 .section-card{

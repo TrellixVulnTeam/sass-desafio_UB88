@@ -1,0 +1,108 @@
+// main- arreglos.ht
+
+.main{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center
+}
+
+.main__section{
+ @extend .main;
+ width: 80%;
+}
+
+.main__section{
+        article{
+            @extend .main;
+    }
+}
+
+
+.card-arreglos{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 2%;
+    border: none;
+}
+
+
+
+
+.main__section--title{
+    @extend .main;
+    color: $color-index;
+    align-items: center;
+    font-size: $size-title-cards;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+
+.main__section--title-b{
+    @extend .main__section--title;
+    color: $color-main;
+}
+
+.main__section--paragraph{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-self: start;
+    font-family: $font-vivero;
+    font-size: $size-text-cards;
+    color: $color-index;
+}
+
+.main__section--paragraph-b{
+    @extend .main__section--paragraph;
+    color: $color-main;
+}
+
+.second-a{
+    justify-content: start;
+    color: $color-index;
+    font-family: $font-vivero;
+    font-size: $size-text-cards;
+}
+
+.second-b{
+    @extend .second-a;
+    color:$color-main;
+}
+
+.whatsapp{
+    text-decoration: none;
+    color:$color-card-title-hover;
+    &:hover{
+        transform: translateY(-15px);
+        color: $color-title-nosotros;
+    }
+}
+
+.botton-line{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.botton{
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    font-size: $size-text-cards;
+    text-decoration: none;
+    text-align: center;
+    font-family: $font-vivero;
+    background-color:$color-card-text-hover;
+    color: $color-card-title-hover;
+    border: 2px solid $color-main;
+    &:hover{
+        color: $color-main;
+    }
+    }
+

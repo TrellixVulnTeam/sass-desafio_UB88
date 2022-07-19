@@ -1,0 +1,29 @@
+// body
+
+
+.gracias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: 10%;
+        h2{
+            font-family: $font-vivero;
+            font-size: $size-nav;
+            color: $color-index;
+        }
+        p{
+            font-family: $font-vivero;
+            font-size: $size-text-cards;
+            color: $color-title-nosotros;
+        }
+        .botton{
+                a{
+                    text-decoration: none;
+                    color: $color-title-nosotros;
+                }
+        }
+    }
+
+

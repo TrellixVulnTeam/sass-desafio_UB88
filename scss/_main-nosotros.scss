@@ -1,0 +1,62 @@
+
+// inicio main - dection -  nosotros.html
+
+.main_nosotros{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: space-between;
+    @media screen and (min-width: 320px) and (max-width: 900px){
+        display:flex;
+        flex-direction: column;
+        width: 100%;}
+}
+
+.main_section-nosotros{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-content: top;
+    margin-top: 5%;
+    @media screen and (min-width: 320px) and (max-width: 900px){
+        display: flex;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+}
+
+.main_section-nosotros{
+    img{
+        display: flex;
+        text-align: center;
+        align-self: top;
+    }
+}
+
+
+.main_section-texto{
+    @extend .main_section-nosotros;
+    justify-content: start;
+    margin-left: 2%;
+    padding-left: 3%;
+    padding-right: 2%;}
+
+
+    div{
+        h3{
+            font-size: $size-text-cards;
+            color: $color-title-nosotros;
+            margin-bottom: 2%;
+            margin-top: 5%;
+        }
+        div{
+            p{
+            font-size: $size-text-nosotros;
+            font-family: $font-vivero;
+            color: $color-index;
+            margin-top: 0%;
+
+        }
+    }
+}

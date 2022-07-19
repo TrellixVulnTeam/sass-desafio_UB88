@@ -6,7 +6,6 @@
 
 
 footer{
-    
     margin-top: 0%;
     .links{
         font-family:$font-vivero;
@@ -19,8 +18,14 @@ footer{
     }
 }
 
-hr{
-    border-top: 0px;}
+.div__footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 
 .mb-5{
     .d-flex{
